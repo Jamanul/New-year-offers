@@ -320,6 +320,7 @@ footer{
 .first-part{
     display: flex;
     justify-content: space-between;
+
 }
 .footer-address{
     color: #FFF;
@@ -328,7 +329,8 @@ footer{
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    }
+    padding-bottom: 40px;  
+}
 .footer-info{
     color: #FFF;
     font-family: Inter;
@@ -347,8 +349,10 @@ footer{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+
 }
 .third-part{
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
 }
