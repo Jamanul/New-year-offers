@@ -11,7 +11,7 @@ header{
     margin: 50px 140px 120px 140px;
     background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 16px;
 }
 .header-title{
@@ -31,7 +31,7 @@ header{
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    padding: 0px 344px 220px 344px;
+    padding: 0px 344px 270px 344px;
 }
 
 /* main related style */
@@ -179,3 +179,73 @@ header{
     font-weight: 400;
 }
 
+/* holiday section style */
+
+.holiday-sale-container{
+    margin: 0 140px;
+}
+.holiday-sale-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday-sale-about{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-color{
+    color: #F00;
+}
+.holiday-sale-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday-image{
+    margin: 120px 140px;
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: contain, 35%;
+    background-position: bottom, top right;
+}
+#holiday-last{
+    padding: 150px 300px 350px 60px ;
+}
+
+/* gift-section-title-styles */
+
+.gift-section{
+    margin: 0 140px 120px 140px;
+}
+
+.gift-section-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-section-subject{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.gift-section-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.image-section{
+    display: flex;
+}
+.image-gap{
+    margin-bottom: 10px;
+}
