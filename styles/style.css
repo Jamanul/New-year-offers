@@ -36,6 +36,8 @@ header{
 
 /* main related style */
 
+/* off related styles */
+
 .off-section{
     color: #F00;
     text-align: center;
@@ -63,11 +65,14 @@ header{
     display: flex;
     justify-content: center;
 }
+
+/* midnight section related styles */
+
 .midnight-party-container{
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 0 140px;
+    background-size: cover;
+    margin: 120px 140px ;
     display: flex;
     gap: 200px;
 }
@@ -85,7 +90,92 @@ header{
     font-size: 18px;
     font-weight: 400; 
     padding-left: 126px;
+    margin-bottom: 30px;
     }
 .midnight-image-section{
     padding: 70px 140px 70px 0px;
 }
+.midnight-anchor{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 160px;
+    margin-top: 0px;
+}
+
+/* time-section related style */
+
+.time-section{
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; 
+    
+}
+.time-section-color{
+    color: #F00;
+}
+.primary-button{
+    border-radius: 8px;
+    color: #FFF;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+}
+.time-details{
+    background-color: rgba(250, 128, 114, 0.479);
+    padding: 100px 385px;
+    margin: 0 140px 120px 140px;
+}
+
+/* celebration section styles */
+
+.celebration-section{
+    margin: 0 140px 120px 140px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+    padding-right: 120px;
+}
+
+.celebration-section-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.celebration-section-soon{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.celebration-section-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.celebration-section-image{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px 20px;
+   
+}
+.celebration-section-date{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.celebration-sections-details{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
