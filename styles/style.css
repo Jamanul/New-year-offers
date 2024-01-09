@@ -1,0 +1,91 @@
+/* common shared styles */
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header related style */ 
+
+header{
+    margin: 50px 140px 120px 140px;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+}
+.header-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 530px 0px 530px;
+    margin-bottom: 0px;
+}
+.header-subject{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 344px 220px 344px;
+}
+
+/* main related style */
+
+.off-section{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.holiday-section{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.catagory-section{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year-photo{
+    display: flex;
+    justify-content: center;
+}
+.midnight-party-container{
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 140px;
+    display: flex;
+    gap: 200px;
+}
+.midnight-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding: 126px 0 0 126px;
+}
+.midnight-descripton{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400; 
+    padding-left: 126px;
+    }
+.midnight-image-section{
+    padding: 70px 140px 70px 0px;
+}
