@@ -1,5 +1,10 @@
 /* common shared styles */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -75,6 +80,7 @@ header{
     margin: 120px 140px ;
     display: flex;
     gap: 200px;
+    border-radius: 10px;
 }
 .midnight-title{
     color: #FFF;
@@ -130,6 +136,7 @@ header{
     background-color: rgba(250, 128, 114, 0.479);
     padding: 100px 385px;
     margin: 0 140px 120px 140px;
+    border-radius: 10px;
 }
 
 /* celebration section styles */
@@ -258,6 +265,7 @@ header{
     margin: 0px 140px 120px 140px;
     background-color: rgba(250, 128, 114, 0.479);
     padding: 120px;
+    border-radius: 10px;
 }
 .subscribe-image{
     display: flex;
