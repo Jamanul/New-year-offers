@@ -246,6 +246,11 @@ header{
 .image-section{
     display: flex;
 }
+
+.image-section img:hover{
+    display: none;
+}
+
 .image-gap{
     margin-bottom: 10px;
 }
@@ -300,3 +305,42 @@ header{
 
 /* footer style */
 
+footer{
+    background-color: black;
+    padding: 120px 140px;
+}
+.first-part{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    }
+.footer-info{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-part{
+    padding: 40px 600px;
+}
+.second-part img{
+    margin-left: 15px;
+}
+.last-info{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.third-part{
+    display: flex;
+    justify-content: space-between;
+}
